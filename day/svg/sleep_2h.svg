@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
+  <circle cx="128" cy="128" r="104" fill="#FFECE8" />
+  <g stroke="#FC451C" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="128" cy="128" r="104" stroke="#FC451C" stroke-width="10" fill="none" />
+    <text x="122" y="144" text-anchor="middle" fill="#FC451C" stroke="none" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-weight="700" font-size="52">2h</text>
+    <text x="172" y="96" text-anchor="middle" fill="#FC451C" stroke="none" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-weight="700" font-size="26">z</text>
+  </g>
+</svg>
