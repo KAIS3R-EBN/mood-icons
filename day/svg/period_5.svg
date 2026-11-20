@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <circle cx="128" cy="128" r="104" fill="#FFE6F0" />
-  <g stroke="#FF006E" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="128" cy="128" r="104" stroke="#FF006E" stroke-width="10" fill="none" />
-    <path d="M 128 78.8 L 97.5 127.6 A 34.2 34.2 0 1 0 158.5 127.6 Z" fill="#FF006E" stroke-width="4" />
+  <circle cx="128" cy="128" r="90" fill="#FFE6F1" />
+  <circle cx="128" cy="128" r="90" fill="none" stroke="#FF006E" stroke-width="8.5"  />
+  <g >
+    <g transform="translate(72.20, 72.20) scale(4.650)" fill="#FF006E" stroke="none"><path d="M10.708 2.372a2.382 2.382 0 0 0 -.71 .686l-4.892 7.26c-1.981 3.314 -1.22 7.466 1.767 9.882c2.969 2.402 7.286 2.402 10.254 0c2.987 -2.416 3.748 -6.569 1.795 -9.836l-4.919 -7.306c-.722 -1.075 -2.192 -1.376 -3.295 -.686z" /></g>
   </g>
 </svg>

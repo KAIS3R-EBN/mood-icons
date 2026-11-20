@@ -1,9 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <circle cx="128" cy="128" r="104" fill="#FFF8E6" />
-  <g stroke="#FFB703" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="128" cy="128" r="104" stroke="#FFB703" stroke-width="10" fill="none" />
-    <line x1="92" y1="128" x2="164" y2="128" stroke-width="7.5" />
-    <line x1="92" y1="105" x2="92" y2="151" stroke-width="8.5" />
-    <line x1="164" y1="105" x2="164" y2="151" stroke-width="8.5" />
+  <circle cx="128" cy="128" r="90" fill="#FFF8E6" />
+  <circle cx="128" cy="128" r="90" fill="none" stroke="#FFB703" stroke-width="8.5"  />
+  <g >
+    <g transform="translate(72.20, 72.20) scale(4.650)" fill="none" stroke="#FFB703" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M11.007 5a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+  <path d="M4 17l5 1l.75 -1.5" />
+  <path d="M15 21v-4l-4 -3l1 -6" />
+  <path d="M7 12v-3l5 -1l3 3l3 1" /></g>
   </g>
 </svg>

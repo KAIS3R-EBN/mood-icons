@@ -1,16 +1,16 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
   <defs>
-    <filter id="neon-glow" x="-25%" y="-25%" width="150%" height="150%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="4.5" result="blur" />
+    <filter id="neon-glow" x="-35%" y="-35%" width="170%" height="170%">
+      <feGaussianBlur stdDeviation="6.5" result="blur" />
       <feMerge>
         <feMergeNode in="blur" />
         <feMergeNode in="SourceGraphic" />
       </feMerge>
     </filter>
   </defs>
-  <circle cx="128" cy="128" r="104" fill="#14122B" />
-  <g filter="url(#neon-glow)" stroke="#39FF88" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="128" cy="128" r="104" stroke="#39FF88" stroke-width="10" fill="none" />
-    <path d="M 128 106.9 L 114.2 128.9 A 15.4 15.4 0 1 0 141.8 128.9 Z" stroke-width="7" />
+  <circle cx="128" cy="128" r="90" fill="#14122B" />
+  <circle cx="128" cy="128" r="90" fill="none" stroke="#39FF88" stroke-width="8.5" filter="url(#neon-glow)" />
+  <g filter="url(#neon-glow)">
+    <g transform="translate(83.60, 83.60) scale(3.700)" fill="none" stroke="#39FF88" stroke-width="2.1" stroke-linecap="round" stroke-linejoin="round"><path d="M7.502 19.423c2.602 2.105 6.395 2.105 8.996 0c2.602 -2.105 3.262 -5.708 1.566 -8.546l-4.89 -7.26c-.42 -.625 -1.287 -.803 -1.936 -.397a1.376 1.376 0 0 0 -.41 .397l-4.893 7.26c-1.695 2.838 -1.035 6.441 1.567 8.546" /></g>
   </g>
 </svg>

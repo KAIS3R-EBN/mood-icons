@@ -1,8 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256">
-  <circle cx="128" cy="128" r="104" fill="#E6F8FB" />
-  <g stroke="#00B4D8" fill="none" stroke-linecap="round" stroke-linejoin="round">
-    <circle cx="128" cy="128" r="104" stroke="#00B4D8" stroke-width="10" fill="none" />
-    <text x="122" y="144" text-anchor="middle" fill="#00B4D8" stroke="none" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-weight="700" font-size="46">10h</text>
-    <text x="180" y="96" text-anchor="middle" fill="#00B4D8" stroke="none" font-family="Space Grotesk, Plus Jakarta Sans, sans-serif" font-weight="700" font-size="26">z</text>
+  <circle cx="128" cy="128" r="90" fill="#E6F8FB" />
+  <circle cx="128" cy="128" r="90" fill="none" stroke="#00B4D8" stroke-width="8.5"  />
+  <g >
+    <path d="M 84.0 113.9 L 91.0 105.1 L 91.0 150.9" fill="none" stroke="#00B4D8" stroke-width="10.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="108.6" y="105.1" width="29.9" height="45.8" rx="15.0" fill="none" stroke="#00B4D8" stroke-width="10.7" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M 148.2 106.9 L 148.2 150.9 M 148.2 134.2 A 12.3 12.3 0 0 1 172.9 134.2 L 172.9 150.9" fill="none" stroke="#00B4D8" stroke-width="10.7" stroke-linecap="round" stroke-linejoin="round"/>
   </g>
 </svg>

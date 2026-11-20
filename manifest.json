@@ -1,0 +1,530 @@
+{
+  "version": "1.0.0",
+  "size": "256x256",
+  "themes": [
+    "dark",
+    "day"
+  ],
+  "categories": {
+    "MOOD": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "Very Sad",
+          "chart_value": 1.0,
+          "file": "mood_1.png",
+          "dark": "dark/mood_1.png",
+          "day": "day/mood_1.png"
+        },
+        {
+          "level": 2,
+          "label": "Sad",
+          "chart_value": 2.0,
+          "file": "mood_2.png",
+          "dark": "dark/mood_2.png",
+          "day": "day/mood_2.png"
+        },
+        {
+          "level": 3,
+          "label": "Normal",
+          "chart_value": 3.0,
+          "file": "mood_3.png",
+          "dark": "dark/mood_3.png",
+          "day": "day/mood_3.png"
+        },
+        {
+          "level": 4,
+          "label": "Happy",
+          "chart_value": 4.0,
+          "file": "mood_4.png",
+          "dark": "dark/mood_4.png",
+          "day": "day/mood_4.png"
+        },
+        {
+          "level": 5,
+          "label": "Very Happy",
+          "chart_value": 5.0,
+          "file": "mood_5.png",
+          "dark": "dark/mood_5.png",
+          "day": "day/mood_5.png"
+        }
+      ]
+    },
+    "SLEEP": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 0,
+          "label": "0h",
+          "chart_value": 0.0,
+          "file": "sleep_0h.png",
+          "dark": "dark/sleep_0h.png",
+          "day": "day/sleep_0h.png"
+        },
+        {
+          "level": 1,
+          "label": "1h",
+          "chart_value": 0.5,
+          "file": "sleep_1h.png",
+          "dark": "dark/sleep_1h.png",
+          "day": "day/sleep_1h.png"
+        },
+        {
+          "level": 2,
+          "label": "2h",
+          "chart_value": 1.0,
+          "file": "sleep_2h.png",
+          "dark": "dark/sleep_2h.png",
+          "day": "day/sleep_2h.png"
+        },
+        {
+          "level": 3,
+          "label": "3h",
+          "chart_value": 1.5,
+          "file": "sleep_3h.png",
+          "dark": "dark/sleep_3h.png",
+          "day": "day/sleep_3h.png"
+        },
+        {
+          "level": 4,
+          "label": "4h",
+          "chart_value": 2.0,
+          "file": "sleep_4h.png",
+          "dark": "dark/sleep_4h.png",
+          "day": "day/sleep_4h.png"
+        },
+        {
+          "level": 5,
+          "label": "5h",
+          "chart_value": 2.5,
+          "file": "sleep_5h.png",
+          "dark": "dark/sleep_5h.png",
+          "day": "day/sleep_5h.png"
+        },
+        {
+          "level": 6,
+          "label": "6h",
+          "chart_value": 3.0,
+          "file": "sleep_6h.png",
+          "dark": "dark/sleep_6h.png",
+          "day": "day/sleep_6h.png"
+        },
+        {
+          "level": 7,
+          "label": "7h",
+          "chart_value": 3.5,
+          "file": "sleep_7h.png",
+          "dark": "dark/sleep_7h.png",
+          "day": "day/sleep_7h.png"
+        },
+        {
+          "level": 8,
+          "label": "8h",
+          "chart_value": 4.0,
+          "file": "sleep_8h.png",
+          "dark": "dark/sleep_8h.png",
+          "day": "day/sleep_8h.png"
+        },
+        {
+          "level": 9,
+          "label": "9h",
+          "chart_value": 4.5,
+          "file": "sleep_9h.png",
+          "dark": "dark/sleep_9h.png",
+          "day": "day/sleep_9h.png"
+        },
+        {
+          "level": 10,
+          "label": "10h",
+          "chart_value": 5.0,
+          "file": "sleep_10h.png",
+          "dark": "dark/sleep_10h.png",
+          "day": "day/sleep_10h.png"
+        }
+      ]
+    },
+    "ANXIETY": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "No",
+          "chart_value": 1.0,
+          "file": "anxiety_1.png",
+          "dark": "dark/anxiety_1.png",
+          "day": "day/anxiety_1.png"
+        },
+        {
+          "level": 2,
+          "label": "Low",
+          "chart_value": 2.0,
+          "file": "anxiety_2.png",
+          "dark": "dark/anxiety_2.png",
+          "day": "day/anxiety_2.png"
+        },
+        {
+          "level": 3,
+          "label": "Mild",
+          "chart_value": 3.0,
+          "file": "anxiety_3.png",
+          "dark": "dark/anxiety_3.png",
+          "day": "day/anxiety_3.png"
+        },
+        {
+          "level": 4,
+          "label": "Severe",
+          "chart_value": 4.0,
+          "file": "anxiety_4.png",
+          "dark": "dark/anxiety_4.png",
+          "day": "day/anxiety_4.png"
+        },
+        {
+          "level": 5,
+          "label": "Extreme",
+          "chart_value": 5.0,
+          "file": "anxiety_5.png",
+          "dark": "dark/anxiety_5.png",
+          "day": "day/anxiety_5.png"
+        }
+      ]
+    },
+    "ENERGY": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "Very Low",
+          "chart_value": 1.0,
+          "file": "energy_1.png",
+          "dark": "dark/energy_1.png",
+          "day": "day/energy_1.png"
+        },
+        {
+          "level": 2,
+          "label": "Low",
+          "chart_value": 2.0,
+          "file": "energy_2.png",
+          "dark": "dark/energy_2.png",
+          "day": "day/energy_2.png"
+        },
+        {
+          "level": 3,
+          "label": "Moderate",
+          "chart_value": 3.0,
+          "file": "energy_3.png",
+          "dark": "dark/energy_3.png",
+          "day": "day/energy_3.png"
+        },
+        {
+          "level": 4,
+          "label": "High",
+          "chart_value": 4.0,
+          "file": "energy_4.png",
+          "dark": "dark/energy_4.png",
+          "day": "day/energy_4.png"
+        },
+        {
+          "level": 5,
+          "label": "Very High",
+          "chart_value": 5.0,
+          "file": "energy_5.png",
+          "dark": "dark/energy_5.png",
+          "day": "day/energy_5.png"
+        }
+      ]
+    },
+    "EXERCISE": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "No",
+          "chart_value": 1.0,
+          "file": "exercise_1.png",
+          "dark": "dark/exercise_1.png",
+          "day": "day/exercise_1.png"
+        },
+        {
+          "level": 2,
+          "label": "Light",
+          "chart_value": 2.0,
+          "file": "exercise_2.png",
+          "dark": "dark/exercise_2.png",
+          "day": "day/exercise_2.png"
+        },
+        {
+          "level": 3,
+          "label": "Moderate",
+          "chart_value": 3.0,
+          "file": "exercise_3.png",
+          "dark": "dark/exercise_3.png",
+          "day": "day/exercise_3.png"
+        },
+        {
+          "level": 4,
+          "label": "Heavy",
+          "chart_value": 4.0,
+          "file": "exercise_4.png",
+          "dark": "dark/exercise_4.png",
+          "day": "day/exercise_4.png"
+        },
+        {
+          "level": 5,
+          "label": "Intense",
+          "chart_value": 5.0,
+          "file": "exercise_5.png",
+          "dark": "dark/exercise_5.png",
+          "day": "day/exercise_5.png"
+        }
+      ]
+    },
+    "PERIOD": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "None",
+          "chart_value": 1.0,
+          "file": "period_1.png",
+          "dark": "dark/period_1.png",
+          "day": "day/period_1.png"
+        },
+        {
+          "level": 2,
+          "label": "Spotting",
+          "chart_value": 2.0,
+          "file": "period_2.png",
+          "dark": "dark/period_2.png",
+          "day": "day/period_2.png"
+        },
+        {
+          "level": 3,
+          "label": "Light",
+          "chart_value": 3.0,
+          "file": "period_3.png",
+          "dark": "dark/period_3.png",
+          "day": "day/period_3.png"
+        },
+        {
+          "level": 4,
+          "label": "Medium",
+          "chart_value": 4.0,
+          "file": "period_4.png",
+          "dark": "dark/period_4.png",
+          "day": "day/period_4.png"
+        },
+        {
+          "level": 5,
+          "label": "Heavy",
+          "chart_value": 5.0,
+          "file": "period_5.png",
+          "dark": "dark/period_5.png",
+          "day": "day/period_5.png"
+        }
+      ]
+    },
+    "HYDRATION": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "< 0.5L",
+          "chart_value": 1.0,
+          "file": "hydration_1.png",
+          "dark": "dark/hydration_1.png",
+          "day": "day/hydration_1.png"
+        },
+        {
+          "level": 2,
+          "label": "1L",
+          "chart_value": 2.0,
+          "file": "hydration_2.png",
+          "dark": "dark/hydration_2.png",
+          "day": "day/hydration_2.png"
+        },
+        {
+          "level": 3,
+          "label": "1.5L",
+          "chart_value": 3.0,
+          "file": "hydration_3.png",
+          "dark": "dark/hydration_3.png",
+          "day": "day/hydration_3.png"
+        },
+        {
+          "level": 4,
+          "label": "2L",
+          "chart_value": 4.0,
+          "file": "hydration_4.png",
+          "dark": "dark/hydration_4.png",
+          "day": "day/hydration_4.png"
+        },
+        {
+          "level": 5,
+          "label": "2.5L+",
+          "chart_value": 5.0,
+          "file": "hydration_5.png",
+          "dark": "dark/hydration_5.png",
+          "day": "day/hydration_5.png"
+        }
+      ]
+    },
+    "MEDITATION": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "0 min",
+          "chart_value": 1.0,
+          "file": "meditation_1.png",
+          "dark": "dark/meditation_1.png",
+          "day": "day/meditation_1.png"
+        },
+        {
+          "level": 2,
+          "label": "5 min",
+          "chart_value": 2.0,
+          "file": "meditation_2.png",
+          "dark": "dark/meditation_2.png",
+          "day": "day/meditation_2.png"
+        },
+        {
+          "level": 3,
+          "label": "10 min",
+          "chart_value": 3.0,
+          "file": "meditation_3.png",
+          "dark": "dark/meditation_3.png",
+          "day": "day/meditation_3.png"
+        },
+        {
+          "level": 4,
+          "label": "20 min",
+          "chart_value": 4.0,
+          "file": "meditation_4.png",
+          "dark": "dark/meditation_4.png",
+          "day": "day/meditation_4.png"
+        },
+        {
+          "level": 5,
+          "label": "30 min+",
+          "chart_value": 5.0,
+          "file": "meditation_5.png",
+          "dark": "dark/meditation_5.png",
+          "day": "day/meditation_5.png"
+        }
+      ]
+    },
+    "SCREEN TIME": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "< 1h",
+          "chart_value": 1.0,
+          "file": "screentime_1.png",
+          "dark": "dark/screentime_1.png",
+          "day": "day/screentime_1.png"
+        },
+        {
+          "level": 2,
+          "label": "1-2h",
+          "chart_value": 2.0,
+          "file": "screentime_2.png",
+          "dark": "dark/screentime_2.png",
+          "day": "day/screentime_2.png"
+        },
+        {
+          "level": 3,
+          "label": "2-4h",
+          "chart_value": 3.0,
+          "file": "screentime_3.png",
+          "dark": "dark/screentime_3.png",
+          "day": "day/screentime_3.png"
+        },
+        {
+          "level": 4,
+          "label": "4-6h",
+          "chart_value": 4.0,
+          "file": "screentime_4.png",
+          "dark": "dark/screentime_4.png",
+          "day": "day/screentime_4.png"
+        },
+        {
+          "level": 5,
+          "label": "6h+",
+          "chart_value": 5.0,
+          "file": "screentime_5.png",
+          "dark": "dark/screentime_5.png",
+          "day": "day/screentime_5.png"
+        }
+      ]
+    },
+    "WEATHER": {
+      "empty": "empty.png",
+      "items": [
+        {
+          "level": 1,
+          "label": "Sunny",
+          "chart_value": 5.0,
+          "file": "weather_1.png",
+          "dark": "dark/weather_1.png",
+          "day": "day/weather_1.png"
+        },
+        {
+          "level": 2,
+          "label": "Cloudy",
+          "chart_value": 3.0,
+          "file": "weather_2.png",
+          "dark": "dark/weather_2.png",
+          "day": "day/weather_2.png"
+        },
+        {
+          "level": 3,
+          "label": "Rainy",
+          "chart_value": 2.0,
+          "file": "weather_3.png",
+          "dark": "dark/weather_3.png",
+          "day": "day/weather_3.png"
+        },
+        {
+          "level": 4,
+          "label": "Windy",
+          "chart_value": 4.0,
+          "file": "weather_4.png",
+          "dark": "dark/weather_4.png",
+          "day": "day/weather_4.png"
+        },
+        {
+          "level": 5,
+          "label": "Snowy",
+          "chart_value": 1.0,
+          "file": "weather_5.png",
+          "dark": "dark/weather_5.png",
+          "day": "day/weather_5.png"
+        }
+      ]
+    }
+  },
+  "donut_centers": {
+    "center_anxiety": {
+      "dark": "dark/center_anxiety.png",
+      "day": "day/center_anxiety.png"
+    },
+    "center_energy": {
+      "dark": "dark/center_energy.png",
+      "day": "day/center_energy.png"
+    },
+    "center_exercise": {
+      "dark": "dark/center_exercise.png",
+      "day": "day/center_exercise.png"
+    },
+    "center_weather": {
+      "dark": "dark/center_weather.png",
+      "day": "day/center_weather.png"
+    }
+  },
+  "empty": {
+    "dark": "dark/empty.png",
+    "day": "day/empty.png"
+  }
+}
